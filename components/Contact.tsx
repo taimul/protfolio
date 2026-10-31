@@ -41,6 +41,7 @@ export default function Contact() {
               <a
                 href={l.href}
                 download={l.download}
+                {...(l.download ? {} : { target: "_blank", rel: "noopener noreferrer" })}
                 className="inline-block rounded-full border border-line px-6 py-3 text-bone transition-all hover:-translate-y-0.5 hover:border-crimson hover:bg-crimson"
               >
                 {l.label}

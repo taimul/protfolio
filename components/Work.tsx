@@ -16,6 +16,8 @@ export default function Work() {
             <li key={p.name} className="grid items-center gap-8 md:grid-cols-12 md:gap-12">
               <a
                 href={p.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 data-tilt
                 tabIndex={-1}
                 aria-hidden="true"
@@ -85,10 +87,12 @@ export default function Work() {
                 <a
                   data-reveal
                   href={p.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="slash-link mt-8 inline-flex items-center gap-2 font-medium text-bone"
                 >
                   Open live site <span aria-hidden="true">↗</span>
-                  <span className="sr-only"> for {p.name}</span>
+                  <span className="sr-only"> for {p.name} (opens in a new tab)</span>
                 </a>
               </div>
             </li>
