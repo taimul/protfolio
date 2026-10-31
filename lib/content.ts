@@ -10,6 +10,7 @@ export const profile = {
   resume: "/Taimul_Haque_Pathan_Resume_2026.pdf",
   since: "Apr 2023",
   projectCount: "50+",
+  site: "https://taimul.vercel.app",
 };
 
 export type LiveProduct = {

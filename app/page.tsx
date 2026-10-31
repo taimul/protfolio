@@ -6,6 +6,7 @@ import Experience from "@/components/Experience";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Intro from "@/components/Intro";
+import JsonLd from "@/components/JsonLd";
 import Marquee from "@/components/Marquee";
 import Motion from "@/components/Motion";
 import SlashCut from "@/components/SlashCut";
@@ -17,6 +18,7 @@ const Scene3D = dynamic(() => import("@/components/Scene3D"));
 export default function Home() {
   return (
     <>
+      <JsonLd />
       <Intro />
       <Scene3D />
       <Cursor />

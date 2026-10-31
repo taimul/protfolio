@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Dela_Gothic_One, Geist, Geist_Mono, Noto_Serif_JP } from "next/font/google";
+import { profile } from "@/lib/content";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,10 +25,48 @@ const notoJp = Noto_Serif_JP({
   preload: false,
 });
 
+const title = "Taimul Haque Pathan | Full Stack Developer in Dhaka";
+const description =
+  "Full stack developer in Dhaka building payment platforms, e-commerce and AI products with React, Next.js and Node.js. See live work, CV and resume.";
+
 export const metadata: Metadata = {
-  title: "Taimul Haque Pathan | Full Stack Developer",
-  description:
-    "Full stack developer in Dhaka building payment platforms, e-commerce and AI products with React, Next.js and Node.js.",
+  metadataBase: new URL(profile.site),
+  title: { default: title, template: "%s | Taimul Haque Pathan" },
+  description,
+  keywords: [
+    "Taimul Haque Pathan",
+    "full stack developer",
+    "full stack developer Dhaka",
+    "React developer",
+    "Next.js developer",
+    "Node.js developer",
+    "TypeScript",
+    "frontend developer Bangladesh",
+    "portfolio",
+  ],
+  authors: [{ name: profile.name, url: profile.site }],
+  creator: profile.name,
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: profile.name,
+    title,
+    description,
+    locale: "en_US",
+  },
+  twitter: { card: "summary_large_image", title, description },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
+  category: "technology",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#06070b",
+  colorScheme: "dark",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

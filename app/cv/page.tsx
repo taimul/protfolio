@@ -21,7 +21,8 @@ import {
 import { cvCss } from "@/lib/doc-css";
 
 export const metadata: Metadata = {
-  title: "Taimul Haque Pathan - Curriculum Vitae",
+  title: { absolute: "Taimul Haque Pathan - Curriculum Vitae" },
+  alternates: { canonical: "/cv" },
   robots: { index: false, follow: false },
 };
 
@@ -43,7 +44,8 @@ export default function CvPage() {
             {doc.cvCity}
             <br />
             <a className="lnk" href={profile.github}>GitHub</a> &nbsp;&middot;&nbsp;{" "}
-            <a className="lnk" href={profile.linkedin}>LinkedIn</a>
+            <a className="lnk" href={profile.linkedin}>LinkedIn</a> &nbsp;&middot;&nbsp;{" "}
+            <a className="lnk" href={profile.site}>Portfolio</a>
           </div>
         </header>
 

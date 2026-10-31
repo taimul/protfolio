@@ -4,7 +4,8 @@ import { doc, docOrg, docPeriod, experience, education, jobBullets, live, profil
 import { resumeCss } from "@/lib/doc-css";
 
 export const metadata: Metadata = {
-  title: "Taimul Haque Pathan - Resume",
+  title: { absolute: "Taimul Haque Pathan - Resume" },
+  alternates: { canonical: "/resume" },
   robots: { index: false, follow: false },
 };
 
@@ -25,6 +26,9 @@ export default function ResumePage() {
             </span>
             <span>
               <a className="lnk" href={profile.linkedin}>LinkedIn</a>
+            </span>
+            <span>
+              <a className="lnk" href={profile.site}>Portfolio</a>
             </span>
           </div>
         </header>
