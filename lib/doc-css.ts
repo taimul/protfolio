@@ -1,5 +1,6 @@
 // Print styles for /resume and /cv. They override the site's dark theme for these two pages only.
 const base = `
+html { background:#fff !important; color-scheme:light !important; }
 html body { background:#fff !important; color:#1a1d23; font-family:"Segoe UI", Calibri, Arial, sans-serif; margin:0; display:block; }
 html body::after { display:none; }
 .doc, .doc * { box-sizing:border-box; }
