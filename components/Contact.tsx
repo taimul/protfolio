@@ -12,6 +12,7 @@ export default function Contact() {
     <section id="contact" className="relative scroll-mt-16 overflow-hidden py-24 md:py-40">
       <span
         aria-hidden="true"
+        lang="ja"
         data-parallax
         className="font-jp pointer-events-none absolute right-0 top-0 select-none text-[22rem] leading-none text-crimson/[0.07]"
       >

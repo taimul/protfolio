@@ -56,6 +56,7 @@ export default function Intro() {
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-5">
         <div
           data-seal
+          lang="ja"
           className="font-jp flex h-24 w-24 items-center justify-center rounded-md bg-crimson text-6xl text-bone shadow-[0_0_60px_rgb(230_46_58/0.55)]"
         >
           忍

@@ -7,6 +7,7 @@ export default function Hero() {
     <section id="top" className="relative flex min-h-svh items-center overflow-hidden pt-24 pb-16">
       <div
         aria-hidden="true"
+        lang="ja"
         data-parallax
         className="font-jp pointer-events-none absolute -right-6 top-1/2 -translate-y-1/2 select-none text-[34rem] leading-none text-bone/[0.03] max-md:hidden"
       >

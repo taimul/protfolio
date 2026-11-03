@@ -11,6 +11,7 @@ export default function SectionTitle({
     <div className="relative">
       <span
         aria-hidden="true"
+        lang="ja"
         data-parallax
         className="font-jp pointer-events-none absolute -left-2 -top-16 select-none text-[11rem] leading-none text-bone/[0.05] md:text-[16rem]"
       >

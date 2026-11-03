@@ -18,7 +18,7 @@ export default function Header() {
       </div>
       <div className="mx-auto flex max-w-[1240px] items-center justify-between px-6 py-3">
         <a href="#top" className="flex items-center gap-3" aria-label="Back to top">
-          <span className="font-jp flex h-9 w-9 items-center justify-center rounded-[5px] bg-crimson text-xl text-bone">
+          <span lang="ja" className="font-jp flex h-9 w-9 items-center justify-center rounded-[5px] bg-crimson text-xl text-bone">
             忍
           </span>
           <span className="mono-label hidden !text-bone sm:inline">Taimul H. Pathan</span>
