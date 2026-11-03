@@ -51,7 +51,7 @@ export default function Contact() {
         </ul>
 
         <p className="mono-label mt-24">
-          © {new Date().getFullYear()} {profile.name}. Based in {profile.location}.
+          © {new Date().getFullYear()} {profile.name}.
         </p>
       </div>
     </section>

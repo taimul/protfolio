@@ -20,7 +20,6 @@ export default function ResumePage() {
           <div className="contact">
             <span>{profile.email}</span>
             <span>{doc.phone}</span>
-            <span>{doc.city}</span>
             <span>
               <a className="lnk" href={profile.github}>GitHub</a>
             </span>

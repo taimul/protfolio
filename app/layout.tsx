@@ -25,9 +25,9 @@ const notoJp = Noto_Serif_JP({
   preload: false,
 });
 
-const title = "Taimul Haque Pathan | Full Stack Developer in Dhaka";
+const title = "Taimul Haque Pathan | Full Stack Developer for Hire";
 const description =
-  "Full stack developer in Dhaka building payment platforms, e-commerce and AI products with React, Next.js and Node.js. See live work, CV and resume.";
+  "Freelance full stack developer building payment platforms, e-commerce and AI products with React, Next.js and Node.js. See live work, CV and resume.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(profile.site),
@@ -36,12 +36,12 @@ export const metadata: Metadata = {
   keywords: [
     "Taimul Haque Pathan",
     "full stack developer",
-    "full stack developer Dhaka",
+    "freelance full stack developer",
     "React developer",
     "Next.js developer",
     "Node.js developer",
     "TypeScript",
-    "frontend developer Bangladesh",
+    "freelance frontend developer",
     "portfolio",
   ],
   authors: [{ name: profile.name, url: profile.site }],

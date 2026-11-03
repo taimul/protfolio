@@ -17,8 +17,6 @@ export default function Hero() {
         <p data-hero-fade className="mono-label flex flex-wrap items-center gap-x-3 gap-y-1">
           <span className="star text-crimson" />
           {profile.role}
-          <span aria-hidden="true">/</span>
-          {profile.location}
         </p>
 
         <h1 className="display mt-6 text-[clamp(2.3rem,12.5vw,8.6rem)] [perspective:900px]">

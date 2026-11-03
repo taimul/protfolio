@@ -1,7 +1,6 @@
 export const profile = {
   name: "Taimul Haque Pathan",
   role: "Full stack developer",
-  location: "Dhaka, Bangladesh",
   employer: "Flexitech LLC FZ",
   email: "taimul.haque@gmail.com",
   github: "https://github.com/taimul",

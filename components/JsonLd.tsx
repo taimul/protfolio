@@ -23,7 +23,6 @@ export default function JsonLd() {
         description:
           "Full stack developer building payment platforms, e-commerce and AI products with React, Next.js and Node.js.",
         worksFor: { "@type": "Organization", name: profile.employer },
-        address: { "@type": "PostalAddress", addressLocality: "Dhaka", addressCountry: "BD" },
         alumniOf: { "@type": "CollegeOrUniversity", name: education.school },
         knowsAbout: stack.flatMap((g) => g.items),
         knowsLanguage: ["Bangla", "English", "Hindi", "Urdu"],

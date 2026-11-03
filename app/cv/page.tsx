@@ -41,8 +41,6 @@ export default function CvPage() {
             <br />
             {doc.phone}
             <br />
-            {doc.cvCity}
-            <br />
             <a className="lnk" href={profile.github}>GitHub</a> &nbsp;&middot;&nbsp;{" "}
             <a className="lnk" href={profile.linkedin}>LinkedIn</a> &nbsp;&middot;&nbsp;{" "}
             <a className="lnk" href={profile.site}>Portfolio</a>

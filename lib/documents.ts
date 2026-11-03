@@ -7,8 +7,6 @@ export { earlier, education, experience, live, otherWork, profile, stack };
 export const doc = {
   title: "Full Stack Developer · React, Next.js, TypeScript, Node.js",
   phone: "+880 1710 095595",
-  city: "Dhaka, Bangladesh",
-  cvCity: "Badda, Dhaka, Bangladesh",
   summary:
     "Full stack developer with 3+ years of experience building production web platforms: payment gateways, e-commerce, and AI products. Strongest on the front end (React, Next.js, TypeScript, Redux Toolkit, Tailwind CSS), and comfortable ",
   resumeSummaryEnd: "shipping Node.js/Express APIs when a team needs them.",
@@ -178,6 +176,4 @@ export const personal = [
   ["Date of birth", "10 May 1993"],
   ["Nationality", "Bangladeshi"],
   ["Languages", education.languages],
-  ["Present address", "Badda, Dhaka, Bangladesh"],
-  ["Permanent address", "Brahmanbaria, Bangladesh"],
 ];
